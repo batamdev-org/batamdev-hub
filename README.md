@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Batamdev Hub
 
-## Getting Started
+Selamat datang di repository **Batamdev Hub**! 👋  
+Terima kasih telah menjadi bagian dari komunitas teknologi Batamdev. 🚀
 
-First, run the development server:
+## 📦 Tech Stack
+
+- Framework: [Next.js](https://nextjs.org/)
+- Package Manager: [pnpm](https://pnpm.io/)
+- Node Version: `v23.11.0` (gunakan versi **latest** saat ini)
+
+## 🛠️ Cara Menjalankan Project
+
+1. Pastikan kamu menggunakan Node.js versi `23.11.0`
+2. Install dependencies dengan:
+
+   ```bash
+   pnpm install
+   ```
+
+## 🚀 Jalankan Development Server
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Atau jika mau custom port:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+  pnpm dev -p 3003
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📂 Struktur Branch & Kontribusi
 
-## Learn More
+- Gunakan branch terpisah untuk setiap fitur. Contoh:
+  ```bash
+  feat/login-page
+  fix/navbar-bug
+  ```
+- Setelah selesai, buat pull request (PR) ke branch dev
+- Tim reviewer akan melakukan review sebelum merge ke dev
 
-To learn more about Next.js, take a look at the following resources:
+## 🤝 Kontribusi
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Kami menyambut kolaborator baru dengan tangan terbuka!
+Jangan ragu untuk membuat issue, mengusulkan ide, atau berkontribusi dengan code langsung.
